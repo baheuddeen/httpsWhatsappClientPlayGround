@@ -1,10 +1,8 @@
 # Welcome to Whatsapp Play Ground!
 
-The reason why i created this repo is because multiple people asked for a way to send Advs messages to a hug list of clients for marketing purposes.
-This is a simple way to connect to Whatsapp and start sending messages with the amazing power of node.js
-you can have fun with this tool rather than sending boring messages to poor people.
-for example, when any one send you a message start with "love n" it will send back "I love you" n times, of course n is a number.
-you also can create a connection with chatgpt API and forward the messages you receive as a prompt and reply with chatgpt answer. this might help when your lover asks you to tell me a joke, or a story and you don't have time :D. 
+I created this repository in response to multiple requests for a method to send advertising messages to a large list of clients for marketing purposes. It provides a straightforward way to connect to WhatsApp and begin sending messages using the powerful capabilities of Node.js. With this tool, you can inject some fun into your messaging instead of simply sending dull messages to recipients.
+
+For instance, if someone sends you a message starting with "love n" the tool will respond with "I love you" repeated n times, where n is a number specified. Additionally, you can establish a connection with the ChatGPT API to forward received messages as prompts and reply with ChatGPT-generated responses. This feature could be particularly useful when your fiancé requests a joke or story, and you have time to answer. 😄
 
 # Spec
 My node version is v18.16.1
