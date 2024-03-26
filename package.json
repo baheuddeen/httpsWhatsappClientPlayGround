@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "tsc-watch --onSuccess \"node dist/main.js\""
+    "dev": "tsc-watch --onSuccess \"node dist/main.js\"",
+    "start": "node dist/main.js",
+    "build": "tsc"
   },
   "author": "",
   "type": "commonjs",

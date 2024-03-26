@@ -26,10 +26,6 @@
   ],
   "include": [
     "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "tests/**/*.ts",
-    "tests/**/*.tsx",
     "types.ts",
     "main.ts",
     "main.ts"
