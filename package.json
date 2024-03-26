@@ -1,0 +1,24 @@
+{
+  "name": "whatsappclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "tsc-watch --onSuccess \"node dist/main.js\""
+  },
+  "author": "",
+  "type": "commonjs",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "nodemon": "^3.1.0",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0",
+    "typescript": "^5.4.3",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.2",
+    "tsc-watch": "^6.0.4"
+  }
+}
