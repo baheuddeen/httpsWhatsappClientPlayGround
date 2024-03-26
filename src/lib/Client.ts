@@ -23,6 +23,7 @@ export default class WhatsappClient {
         });
 
         this.client.on('message', message => {
+            // ask someone to send a message to you with content 'love 10'
             console.log('New message:', message.body);
             // when a message is received, check if it starts with 'love'
             const words = message.body.split(' ');
@@ -58,7 +59,13 @@ export default class WhatsappClient {
             const number = `${
                 row.number.replace(/\D/g, '')
             }@c.us`;
-            this.client.sendMessage(number, `Hi ${row.firstName}!`);
+            this.client.sendMessage(number, `
+                Hi ${row.firstName} ${row.lastName}!
+                I hope you are doing well.
+                Blah Blah Blah.
+                this is a test message.
+                thanks.
+            `);
             counter++;
         }
         , 1000);
